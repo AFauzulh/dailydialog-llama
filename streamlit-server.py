@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModelForCausalLM
 from huggingface_hub import login
 
-login(token="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")
+login(token="YOUR_HUGGINGFACE_TOKEN")
 
 if torch.cuda.is_available():       
     device = torch.device("cuda")
