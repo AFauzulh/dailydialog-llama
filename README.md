@@ -8,12 +8,12 @@
 
 - UI:
     * Streamlit simple chat UI
+ 
+
+## Fine-tuning
 
 Note: \
 If you already download the base pretrained model from huggingface you can create `model_cache` folder inside this repository place the base pretrained model into `model_cache` folder.
-
-
-## Fine-tuning
 
 To manually fine-tune model, run the following script:
 
@@ -22,6 +22,12 @@ To manually fine-tune model, run the following script:
 ```
 
 ## Deployment
+
+
+**Pre-requisites :** \
+    1. Download the [fine-tuned](https://drive.google.com/file/d/1J_xMjfMeiuAgD48jk1kWMY7A7bn1G7Mx/view?usp=sharing) models \
+    2. Place the downloaded model into the repository then extract it 
+
 
 To deploy this project run
 
